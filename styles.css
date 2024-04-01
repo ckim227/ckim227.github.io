@@ -1,0 +1,62 @@
+
+:root{
+	--pastelblue: #d4f9ff;
+	--darkbrown: #59361c;
+	--lightbrown:  #d4986a;
+	--midbrown: #d9a279;
+}
+
+/* @font-face {
+	font-family: 'Comic Sans MS';
+	src: url("comic-sans-ms/comici.ttf");
+  } */
+
+/* body {
+	font-family: "Comic Sans MS", "Comic Sans", "Open Sans";
+	color: #805d44;
+	text-align: center;
+} */
+
+
+section {
+    padding: 0%;
+    margin-bottom: 10%;
+}
+h5 {
+    display: inline-block;
+    padding: 0px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+img {
+    max-width: 75%;
+    height: auto;
+    width: auto;
+    margin:0px;
+    padding: 0px;
+
+}
+
+div {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* #section:hover {
+}  */
+
+
+@keyframes enlarge {
+	from{width: 10px;}
+	to{width: 600px;}
+}
+
+@keyframes spin{
+	0%{transform: rotate(0deg);}
+	25%{transform: rotate(90deg);}
+	50%{transform: rotate(180deg);}
+	75%{transform: rotate(270deg);}
+	100%{transform: rotate(360deg);}
+}
